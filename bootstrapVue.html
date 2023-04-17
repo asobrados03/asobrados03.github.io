@@ -30,10 +30,6 @@
         background-color: #eee;
         padding: 5px;
     }
-    .fila:nth-child(odd){
-        background-color: #4aedb7;
-        border-color: #4aedb7;
-    }
     .columnaMedia{
         width: 80px;
     }
@@ -63,7 +59,7 @@
             <!-- tipos de entrada -->
             <div v-for="(tipo, key) in fecha">
                 <small>
-                    <p class="fila" v-for="entrada in tipo">
+                    <p v-for="entrada in tipo">
                         <span class="columnaAncha">
                             {{key}}
                             <span v-if="entrada.rrpp">
