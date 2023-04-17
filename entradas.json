@@ -1,0 +1,2278 @@
+[
+    {
+        "id": "Barceló",
+        "data": {
+            "2022-01-30": {
+                "Entrada + Bonocopas": {
+                    "pi_3KbQyTJatswSCF0w0jjhLQSM": {
+                        "precio": 35,
+                        "producto": "Entrada + Bonocopas",
+                        "descripcion": "5 copas.",
+                        "discoteca": "Barceló",
+                        "token": "pi_3KbQyTJatswSCF0w0jjhLQSM",
+                        "fecha": "2022-01-30",
+                        "cliente": {
+                            "apellidos": "García Vara",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja"
+                        }
+                    },
+                    "pi_3KXQVlJatswSCF0w0DQywMhJ": {
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime"
+                        },
+                        "descripcion": "5 copas.",
+                        "fecha": "2022-01-30",
+                        "precio": 35,
+                        "producto": "Entrada + Bonocopas",
+                        "token": "pi_3KXQVlJatswSCF0w0DQywMhJ",
+                        "discoteca": "Barceló"
+                    },
+                    "pi_3Kb7KyJatswSCF0w09xqECO5": {
+                        "fecha": "2022-01-30",
+                        "producto": "Entrada + Bonocopas",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja",
+                            "apellidos": "García Vara"
+                        },
+                        "precio": 35,
+                        "discoteca": "Barceló",
+                        "token": "pi_3Kb7KyJatswSCF0w09xqECO5",
+                        "descripcion": "5 copas."
+                    },
+                    "pi_3KedLrJatswSCF0w1fPKiweb": {
+                        "precio": 35,
+                        "fecha": "2022-01-30",
+                        "producto": "Entrada + Bonocopas",
+                        "token": "pi_3KedLrJatswSCF0w1fPKiweb",
+                        "cliente": {
+                            "apellidos": "Denis Rubio",
+                            "nacido": {
+                                "seconds": 916095600,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Paula "
+                        },
+                        "discoteca": "Barceló",
+                        "descripcion": "5 copas."
+                    },
+                    "pi_3KdYRdJatswSCF0w1qb9I2pZ": {
+                        "precio": 35,
+                        "producto": "Entrada + Bonocopas",
+                        "fecha": "2022-01-30",
+                        "token": "pi_3KdYRdJatswSCF0w1qb9I2pZ",
+                        "cliente": {
+                            "apellidos": "Muriel Garcia del Real",
+                            "nacido": {
+                                "seconds": 1001541600,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Elena"
+                        },
+                        "discoteca": "Barceló",
+                        "descripcion": "5 copas."
+                    }
+                },
+                "Entrada Normal": {
+                    "pi_3KXWjiJatswSCF0w0kRnDoZg": {
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "fecha": "2022-01-30",
+                        "precio": 18,
+                        "token": "pi_3KXWjiJatswSCF0w0kRnDoZg",
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 99442800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Vara Santiago",
+                            "nombre": "María "
+                        },
+                        "discoteca": "Barceló"
+                    },
+                    "pi_3KahybJatswSCF0w0PiRSbCE": {
+                        "fecha": "2022-01-30",
+                        "cliente": {
+                            "nombre": "Javier",
+                            "apellidos": "Delgado Sierra",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "precio": 18,
+                        "producto": "Entrada Normal",
+                        "discoteca": "Barceló",
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "token": "pi_3KahybJatswSCF0w0PiRSbCE"
+                    },
+                    "pi_3KapsEJatswSCF0w1x9wlGLH": {
+                        "token": "pi_3KapsEJatswSCF0w1x9wlGLH",
+                        "fecha": "2022-01-30",
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "discoteca": "Barceló",
+                        "cliente": {
+                            "apellidos": "Delgado Sierra",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Javier"
+                        },
+                        "precio": 18,
+                        "producto": "Entrada Normal"
+                    },
+                    "pi_3KaOuqJatswSCF0w0pUXLs1S": {
+                        "fecha": "2022-01-30",
+                        "producto": "Entrada Normal",
+                        "token": "pi_3KaOuqJatswSCF0w0pUXLs1S",
+                        "cliente": {
+                            "apellidos": "fernandez sanz",
+                            "nacido": {
+                                "seconds": 972946800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "alberto "
+                        },
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "precio": 18,
+                        "discoteca": "Barceló"
+                    },
+                    "pi_3Kcw4TJatswSCF0w1asllDmu": {
+                        "cliente": {
+                            "nombre": "Borja",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Vara"
+                        },
+                        "precio": 18,
+                        "discoteca": "Barceló",
+                        "producto": "Entrada Normal",
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "fecha": "2022-01-30",
+                        "token": "pi_3Kcw4TJatswSCF0w1asllDmu"
+                    },
+                    "pi_3KX3isJatswSCF0w1iD5BeFw": {
+                        "token": "pi_3KX3isJatswSCF0w1iD5BeFw",
+                        "producto": "Entrada Normal",
+                        "precio": 18,
+                        "fecha": "2022-01-30",
+                        "discoteca": "Barceló",
+                        "cliente": {
+                            "apellidos": "Atauri ",
+                            "nombre": "David",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "descripcion": "2 copas hasta las 01:30."
+                    },
+                    "pi_3KejoQJatswSCF0w0M5u0WpY": {
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "discoteca": "Barceló",
+                        "precio": 18,
+                        "rrpp": null,
+                        "fecha": "2022-01-30",
+                        "producto": "Entrada Normal",
+                        "token": "pi_3KejoQJatswSCF0w0M5u0WpY",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "apellidos": "García Vara",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            }
+                        }
+                    },
+                    "pi_3KX5EDJatswSCF0w00sbu6fM": {
+                        "precio": 18,
+                        "fecha": "2022-01-30",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "atauri ",
+                            "nombre": "lluvi"
+                        },
+                        "token": "pi_3KX5EDJatswSCF0w00sbu6fM",
+                        "producto": "Entrada Normal",
+                        "discoteca": "Barceló",
+                        "descripcion": "2 copas hasta las 01:30."
+                    },
+                    "pi_3KY7ieJatswSCF0w1d388Agm": {
+                        "cliente": {
+                            "nombre": "+34633453577",
+                            "apellidos": "+34633453577",
+                            "nacido": {
+                                "seconds": 954025200,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "fecha": "2022-01-30",
+                        "token": "pi_3KY7ieJatswSCF0w1d388Agm",
+                        "discoteca": "Barceló",
+                        "producto": "Entrada Normal",
+                        "precio": 18
+                    },
+                    "pi_3Kdz2AJatswSCF0w1cgSeTMF": {
+                        "precio": 18,
+                        "cliente": {
+                            "nombre": "Javier",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Delgado Sierra"
+                        },
+                        "token": "pi_3Kdz2AJatswSCF0w1cgSeTMF",
+                        "producto": "Entrada Normal",
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "discoteca": "Barceló",
+                        "fecha": "2022-01-30"
+                    },
+                    "pi_3KcZvbJatswSCF0w1aigOkox": {
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "precio": 18,
+                        "fecha": "2022-01-30",
+                        "discoteca": "Barceló",
+                        "producto": "Entrada Normal",
+                        "token": "pi_3KcZvbJatswSCF0w1aigOkox",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime",
+                            "apellidos": "Echeita Presedo"
+                        }
+                    },
+                    "pi_3KamBfJatswSCF0w10c4a2HT": {
+                        "precio": 18,
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime"
+                        },
+                        "discoteca": "Barceló",
+                        "fecha": "2022-01-30",
+                        "token": "pi_3KamBfJatswSCF0w10c4a2HT",
+                        "descripcion": "2 copas hasta las 01:30."
+                    },
+                    "pi_3Kg9WfJatswSCF0w1yyOUgbR": {
+                        "descripcion": "2 copas hasta las 01:30.",
+                        "token": "pi_3Kg9WfJatswSCF0w1yyOUgbR",
+                        "rrpp": null,
+                        "precio": 18,
+                        "cliente": {
+                            "nombre": "jaime",
+                            "nacido": {
+                                "seconds": 963352800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "González vara"
+                        },
+                        "fecha": "2022-01-30",
+                        "producto": "Entrada Normal",
+                        "discoteca": "Barceló"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "BlackHauss",
+        "data": {
+            "2022-03-10": {
+                "Reservado": {
+                    "pi_3KXOi3JatswSCF0w1ikfYEFv": {
+                        "token": "pi_3KXOi3JatswSCF0w1ikfYEFv",
+                        "discoteca": "BlackHauss",
+                        "precio": 120,
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "producto": "Reservado",
+                        "fecha": "2022-03-10",
+                        "descripcion": "Zona A - Pista Central"
+                    },
+                    "pi_3KXiKIJatswSCF0w19EFH2bK": {
+                        "cliente": {
+                            "nombre": "david",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "atauri"
+                        },
+                        "precio": 120,
+                        "producto": "Reservado",
+                        "fecha": "2022-03-10",
+                        "descripcion": "Zona A - Pista Central",
+                        "token": "pi_3KXiKIJatswSCF0w19EFH2bK",
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3KXt5CJatswSCF0w1gUuET5y": {
+                        "precio": 120,
+                        "descripcion": "Zona A - Pista Central",
+                        "cliente": {
+                            "nombre": "esther",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Martínez"
+                        },
+                        "producto": "Reservado",
+                        "discoteca": "BlackHauss",
+                        "fecha": "2022-03-10",
+                        "token": "pi_3KXt5CJatswSCF0w1gUuET5y"
+                    },
+                    "pi_3KY59aJatswSCF0w0ffAfibY": {
+                        "precio": 120,
+                        "fecha": "2022-03-10",
+                        "descripcion": "Zona A - Pista Central",
+                        "discoteca": "BlackHauss",
+                        "cliente": {
+                            "nombre": "Yeray ",
+                            "nacido": {
+                                "seconds": 1048546800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Braña"
+                        },
+                        "producto": "Reservado",
+                        "token": "pi_3KY59aJatswSCF0w0ffAfibY"
+                    },
+                    "pi_3KY5tfJatswSCF0w19eqQ8F3": {
+                        "descripcion": "Zona A - Pista Central",
+                        "token": "pi_3KY5tfJatswSCF0w19eqQ8F3",
+                        "precio": 120,
+                        "fecha": "2022-03-10",
+                        "cliente": {
+                            "apellidos": null,
+                            "nacido": null,
+                            "nombre": null
+                        },
+                        "producto": "Reservado",
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3KcUomJatswSCF0w1j2lL78e": {
+                        "discoteca": "BlackHauss",
+                        "precio": 120,
+                        "cliente": {
+                            "apellidos": "+34606889493",
+                            "nombre": "+34606889493",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "fecha": "2022-03-10",
+                        "producto": "Reservado",
+                        "token": "pi_3KcUomJatswSCF0w1j2lL78e",
+                        "descripcion": "Zona B - Sala Techno"
+                    },
+                    "pi_3KYURgJatswSCF0w1lzyydky": {
+                        "fecha": "2022-03-10",
+                        "precio": 120,
+                        "descripcion": "Zona A - Pista Central",
+                        "token": "pi_3KYURgJatswSCF0w1lzyydky",
+                        "discoteca": "BlackHauss",
+                        "producto": "Reservado",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 972946800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "alberto ",
+                            "apellidos": "fernandez sanz"
+                        }
+                    },
+                    "pi_3Kahy8JatswSCF0w08u37kKA": {
+                        "fecha": "2022-03-10",
+                        "precio": 120,
+                        "token": "pi_3Kahy8JatswSCF0w08u37kKA",
+                        "producto": "Reservado",
+                        "discoteca": "BlackHauss",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Delgado Sierra",
+                            "nombre": "Javier"
+                        },
+                        "descripcion": "Zona A - Pista Central"
+                    },
+                    "pi_3KXrltJatswSCF0w0MPDoObJ": {
+                        "descripcion": "Zona A - Pista Central",
+                        "producto": "Reservado",
+                        "token": "pi_3KXrltJatswSCF0w0MPDoObJ",
+                        "fecha": "2022-03-10",
+                        "discoteca": "BlackHauss",
+                        "precio": 120,
+                        "cliente": {
+                            "nombre": "+34634693227",
+                            "apellidos": "+34634693227",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        }
+                    },
+                    "pi_3KY77WJatswSCF0w18Wy2Z7Q": {
+                        "descripcion": "Zona A - Pista Central",
+                        "precio": 120,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 963007200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Fernández",
+                            "nombre": "Paco"
+                        },
+                        "fecha": "2022-03-10",
+                        "discoteca": "BlackHauss",
+                        "producto": "Reservado",
+                        "token": "pi_3KY77WJatswSCF0w18Wy2Z7Q"
+                    },
+                    "pi_3KX5GwJatswSCF0w018PnEzW": {
+                        "precio": 120,
+                        "producto": "Reservado",
+                        "fecha": "2022-03-10",
+                        "descripcion": "Zona B - Sala Techno",
+                        "token": "pi_3KX5GwJatswSCF0w018PnEzW",
+                        "discoteca": "BlackHauss",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "lluvi",
+                            "apellidos": "atauri "
+                        }
+                    },
+                    "pi_3KY4MZJatswSCF0w1LuHermD": {
+                        "token": "pi_3KY4MZJatswSCF0w1LuHermD",
+                        "discoteca": "BlackHauss",
+                        "fecha": "2022-03-10",
+                        "precio": 120,
+                        "cliente": {
+                            "nombre": "+34633453577",
+                            "apellidos": "+34633453577",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "descripcion": "Zona A - Pista Central",
+                        "producto": "Reservado"
+                    },
+                    "pi_3KXsQyJatswSCF0w0QNvr3Qv": {
+                        "discoteca": "BlackHauss",
+                        "producto": "Reservado",
+                        "precio": 120,
+                        "token": "pi_3KXsQyJatswSCF0w0QNvr3Qv",
+                        "fecha": "2022-03-10",
+                        "descripcion": "Zona A - Pista Central",
+                        "cliente": {
+                            "apellidos": null,
+                            "nombre": null,
+                            "nacido": null
+                        }
+                    },
+                    "pi_3KXrgwJatswSCF0w14ZdTnld": {
+                        "token": "pi_3KXrgwJatswSCF0w14ZdTnld",
+                        "fecha": "2022-03-10",
+                        "discoteca": "BlackHauss",
+                        "cliente": {
+                            "apellidos": "Martinez ",
+                            "nacido": {
+                                "seconds": 886719600,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jonathan"
+                        },
+                        "producto": "Reservado",
+                        "canjeada": "2022-03-03 0:34",
+                        "isOk": true,
+                        "precio": 120,
+                        "descripcion": "Zona A - Pista Central"
+                    },
+                    "pi_3KZvliJatswSCF0w1IOD9oFI": {
+                        "discoteca": "BlackHauss",
+                        "producto": "Reservado",
+                        "precio": 120,
+                        "descripcion": "Zona A - Pista Central",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": -3600,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Joel",
+                            "apellidos": "Garcia Vara"
+                        },
+                        "token": "pi_3KZvliJatswSCF0w1IOD9oFI",
+                        "fecha": "2022-03-10"
+                    },
+                    "pi_3KXWilJatswSCF0w1B1HldfO": {
+                        "discoteca": "BlackHauss",
+                        "token": "pi_3KXWilJatswSCF0w1B1HldfO",
+                        "precio": 120,
+                        "canjeada": "2022-02-26 21:19",
+                        "descripcion": "Zona A - Pista Central",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 99442800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "María ",
+                            "apellidos": "Vara Santiago"
+                        },
+                        "fecha": "2022-03-10",
+                        "isOk": true,
+                        "producto": "Reservado"
+                    }
+                },
+                "Reservado VIP": {
+                    "pi_3KXskWJatswSCF0w1hL7ufpv": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 982278000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Fernández Torrejón ",
+                            "nombre": "Marta"
+                        },
+                        "fecha": "2022-03-10",
+                        "producto": "Reservado VIP",
+                        "discoteca": "BlackHauss",
+                        "descripcion": "Zona Premium - Cabina DJ",
+                        "token": "pi_3KXskWJatswSCF0w1hL7ufpv",
+                        "precio": 300
+                    }
+                },
+                "Entrada": {
+                    "pi_3Kc4ZRJatswSCF0w1gvjzajC": {
+                        "rrpp": "STdyGtcMytUIe39Kkibp13DfFWJ2",
+                        "producto": "Entrada",
+                        "precio": 3,
+                        "token": "pi_3Kc4ZRJatswSCF0w1gvjzajC",
+                        "cliente": {
+                            "nombre": "david",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "atauri"
+                        },
+                        "discoteca": "BlackHauss",
+                        "fecha": "2022-03-10",
+                        "descripcion": "Prueba Compra Real 2"
+                    },
+                    "pi_3KY5lrJatswSCF0w1ykaGXo1": {
+                        "producto": "Entrada",
+                        "cliente": {
+                            "nacido": null,
+                            "apellidos": null,
+                            "nombre": null
+                        },
+                        "precio": 3,
+                        "descripcion": "Prueba Compra Real 2",
+                        "fecha": "2022-03-10",
+                        "token": "pi_3KY5lrJatswSCF0w1ykaGXo1",
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3KXMnWJatswSCF0w0nIMz0dg": {
+                        "precio": 2.5,
+                        "discoteca": "BlackHauss",
+                        "producto": "Entrada",
+                        "fecha": "2022-03-10",
+                        "cliente": {
+                            "nombre": "David",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Atauri "
+                        },
+                        "token": "pi_3KXMnWJatswSCF0w0nIMz0dg",
+                        "descripcion": "prueba compra real"
+                    },
+                    "pi_3KW8NUJatswSCF0w01LI437J": {
+                        "descripcion": "prueba compra real",
+                        "token": "pi_3KW8NUJatswSCF0w01LI437J",
+                        "discoteca": "BlackHauss",
+                        "isOk": true,
+                        "canjeada": "2022-02-25 17:09",
+                        "producto": "Entrada",
+                        "precio": 2.5,
+                        "fecha": "2022-03-10",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "David",
+                            "apellidos": "atauri"
+                        }
+                    },
+                    "pi_3KZDa4JatswSCF0w1io5O88G": {
+                        "token": "pi_3KZDa4JatswSCF0w1io5O88G",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Adams",
+                            "apellidos": "+34608866203"
+                        },
+                        "fecha": "2022-03-10",
+                        "producto": "Entrada",
+                        "discoteca": "BlackHauss",
+                        "precio": 2.5,
+                        "descripcion": "prueba compra real"
+                    },
+                    "pi_3KY9ifJatswSCF0w0fymwtnj": {
+                        "fecha": "2022-03-10",
+                        "discoteca": "BlackHauss",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 860400,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja",
+                            "apellidos": "Gomendio"
+                        },
+                        "descripcion": "prueba compra real",
+                        "token": "pi_3KY9ifJatswSCF0w0fymwtnj",
+                        "producto": "Entrada",
+                        "precio": 2.5
+                    },
+                    "pi_3KX7SLAA0Hx374Wk0ZnTyFf7": {
+                        "fecha": "2022-03-10",
+                        "producto": "Entrada",
+                        "descripcion": "prueba compra real",
+                        "discoteca": "BlackHauss",
+                        "token": "pi_3KX7SLAA0Hx374Wk0ZnTyFf7",
+                        "precio": 2.5,
+                        "cliente": {
+                            "apellidos": "García Vara",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja"
+                        }
+                    },
+                    "pi_3KXrlpJatswSCF0w1l45yO8c": {
+                        "precio": 2.5,
+                        "fecha": "2022-03-10",
+                        "producto": "Entrada",
+                        "token": "pi_3KXrlpJatswSCF0w1l45yO8c",
+                        "cliente": {
+                            "nombre": "Jimena",
+                            "apellidos": "Del Real Ballesteros ",
+                            "nacido": {
+                                "seconds": 1105657200,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "discoteca": "BlackHauss",
+                        "descripcion": "prueba compra real"
+                    }
+                }
+            },
+            "2022-04-01": {
+                "Entrada": {
+                    "pi_3KdVRWJatswSCF0w1yoUGv3D": {
+                        "precio": 3,
+                        "producto": "Entrada",
+                        "discoteca": "BlackHauss",
+                        "cliente": {
+                            "apellidos": null,
+                            "nombre": null,
+                            "nacido": null
+                        },
+                        "descripcion": "Prueba Compra Real 2",
+                        "token": "pi_3KdVRWJatswSCF0w1yoUGv3D",
+                        "fecha": "2022-04-01",
+                        "rrpp": null
+                    },
+                    "pi_3KhEYlJatswSCF0w00zfkzQI": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Delgado Sierra",
+                            "nombre": "Javier"
+                        },
+                        "producto": "Entrada",
+                        "rrpp": null,
+                        "descripcion": "Prueba Compra Real 2",
+                        "fecha": "2022-04-01",
+                        "token": "pi_3KhEYlJatswSCF0w00zfkzQI",
+                        "precio": 3,
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3KeeEhJatswSCF0w11xjCgrL": {
+                        "descripcion": "Prueba Compra Real 2",
+                        "fecha": "2022-04-01",
+                        "cliente": {
+                            "apellidos": "Muriel Garcia del Real",
+                            "nombre": "Elena",
+                            "nacido": {
+                                "seconds": 1001541600,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "precio": 3,
+                        "token": "pi_3KeeEhJatswSCF0w11xjCgrL",
+                        "producto": "Entrada",
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3Kdw1OJatswSCF0w0BB83DgD": {
+                        "fecha": "2022-04-01",
+                        "token": "pi_3Kdw1OJatswSCF0w0BB83DgD",
+                        "precio": 3,
+                        "cliente": {
+                            "nombre": "María ",
+                            "nacido": {
+                                "seconds": 970783200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "de Armas Álvarez "
+                        },
+                        "descripcion": "Prueba Compra Real 2",
+                        "producto": "Entrada",
+                        "discoteca": "BlackHauss",
+                        "rrpp": null
+                    },
+                    "pi_3KdvPFJatswSCF0w0PM0SAuu": {
+                        "fecha": "2022-04-01",
+                        "rrpp": null,
+                        "cliente": {
+                            "nombre": "+34626208332",
+                            "apellidos": "+34626208332",
+                            "nacido": {
+                                "seconds": 947804400,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "discoteca": "BlackHauss",
+                        "precio": 3,
+                        "producto": "Entrada",
+                        "token": "pi_3KdvPFJatswSCF0w0PM0SAuu",
+                        "descripcion": "Prueba Compra Real 2"
+                    },
+                    "pi_3KehkwJatswSCF0w1Vq8TGpm": {
+                        "rrpp": "STdyGtcMytUIe39Kkibp13DfFWJ2",
+                        "descripcion": "Prueba Compra Real 2",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Vara"
+                        },
+                        "producto": "Entrada",
+                        "precio": 3,
+                        "discoteca": "BlackHauss",
+                        "token": "pi_3KehkwJatswSCF0w1Vq8TGpm",
+                        "fecha": "2022-04-01"
+                    },
+                    "pi_3KePUNJatswSCF0w19ny3Ug9": {
+                        "producto": "Entrada",
+                        "precio": 3,
+                        "cliente": {
+                            "apellidos": "García Braña",
+                            "nacido": {
+                                "seconds": 1048546800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Yeray "
+                        },
+                        "discoteca": "BlackHauss",
+                        "fecha": "2022-04-01",
+                        "token": "pi_3KePUNJatswSCF0w19ny3Ug9",
+                        "descripcion": "Prueba Compra Real 2"
+                    },
+                    "pi_3KdLx7JatswSCF0w180wQQZl": {
+                        "cliente": {
+                            "apellidos": "+34608866203",
+                            "nombre": "Adams",
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "precio": 3,
+                        "fecha": "2022-04-01",
+                        "token": "pi_3KdLx7JatswSCF0w180wQQZl",
+                        "discoteca": "BlackHauss",
+                        "descripcion": "Prueba Compra Real 2",
+                        "producto": "Entrada"
+                    },
+                    "pi_3Kg8eoJatswSCF0w1qWXHSEX": {
+                        "token": "pi_3Kg8eoJatswSCF0w1qWXHSEX",
+                        "precio": 3,
+                        "discoteca": "BlackHauss",
+                        "rrpp": null,
+                        "producto": "Entrada",
+                        "descripcion": "Prueba Compra Real 2",
+                        "cliente": {
+                            "nacido": null,
+                            "nombre": null,
+                            "apellidos": null
+                        },
+                        "fecha": "2022-04-01"
+                    }
+                }
+            },
+            "2022-04-02": {
+                "Entrada": {
+                    "pi_3KePUxJatswSCF0w0FfFFgxs": {
+                        "precio": 3,
+                        "producto": "Entrada",
+                        "fecha": "2022-04-02",
+                        "token": "pi_3KePUxJatswSCF0w0FfFFgxs",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 1048546800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Yeray ",
+                            "apellidos": "García Braña"
+                        },
+                        "descripcion": "Prueba Compra de Entrada",
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3KdFP2JatswSCF0w047D2WLc": {
+                        "rrpp": "2P9E28f5gwYFCKqoDAzk8UcCLbB3",
+                        "token": "pi_3KdFP2JatswSCF0w047D2WLc",
+                        "descripcion": "Prueba Compra de Entrada",
+                        "fecha": "2022-04-02",
+                        "canjeada": "2022-03-18 19:26",
+                        "precio": 3,
+                        "producto": "Entrada",
+                        "isOk": true,
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3KeicDJatswSCF0w1yDcmhmG": {
+                        "descripcion": "de prueba",
+                        "precio": 20,
+                        "rrpp": "STdyGtcMytUIe39Kkibp13DfFWJ2",
+                        "discoteca": "BlackHauss",
+                        "producto": "Entrada",
+                        "fecha": "2022-04-02",
+                        "token": "pi_3KeicDJatswSCF0w1yDcmhmG",
+                        "cliente": {
+                            "nombre": "Elena",
+                            "nacido": {
+                                "seconds": 1001541600,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Muriel Garcia del Real"
+                        }
+                    },
+                    "pi_3Kd9t6JatswSCF0w0K0pU6cV": {
+                        "token": "pi_3Kd9t6JatswSCF0w0K0pU6cV",
+                        "discoteca": "BlackHauss",
+                        "descripcion": "Prueba Compra de Entrada",
+                        "isOk": true,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 946681200,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Guille",
+                            "apellidos": "Vara Santiago"
+                        },
+                        "precio": 3,
+                        "fecha": "2022-04-02",
+                        "producto": "Entrada",
+                        "canjeada": "2022-03-14 10:09"
+                    },
+                    "pi_3KemBlJatswSCF0w1hQ4loNq": {
+                        "token": "pi_3KemBlJatswSCF0w1hQ4loNq",
+                        "precio": 20,
+                        "fecha": "2022-04-02",
+                        "producto": "Entrada",
+                        "discoteca": "BlackHauss",
+                        "rrpp": null,
+                        "descripcion": "de prueba",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 949964400,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "+34616988423",
+                            "apellidos": "+34616988423"
+                        }
+                    },
+                    "pi_3KdLwoJatswSCF0w1oo2vKCu": {
+                        "fecha": "2022-04-02",
+                        "discoteca": "BlackHauss",
+                        "producto": "Entrada",
+                        "descripcion": "Prueba Compra de Entrada",
+                        "cliente": {
+                            "apellidos": "+34608866203",
+                            "nombre": "Adams",
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "precio": 3,
+                        "token": "pi_3KdLwoJatswSCF0w1oo2vKCu"
+                    },
+                    "pi_3KgFWYJatswSCF0w1cVcppvH": {
+                        "cliente": {
+                            "nombre": "Adams",
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "+34608866203"
+                        },
+                        "token": "pi_3KgFWYJatswSCF0w1cVcppvH",
+                        "discoteca": "BlackHauss",
+                        "descripcion": "de prueba",
+                        "rrpp": null,
+                        "producto": "Entrada",
+                        "precio": 20,
+                        "fecha": "2022-04-02"
+                    },
+                    "pi_3Kg9YYJatswSCF0w14kAdnZy": {
+                        "token": "pi_3Kg9YYJatswSCF0w14kAdnZy",
+                        "descripcion": "de prueba",
+                        "precio": 20,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "+34638343000",
+                            "apellidos": "+34638343000"
+                        },
+                        "producto": "Entrada",
+                        "fecha": "2022-04-02",
+                        "rrpp": null,
+                        "discoteca": "BlackHauss"
+                    },
+                    "pi_3Kga3OJatswSCF0w0njniPqH": {
+                        "rrpp": "STdyGtcMytUIe39Kkibp13DfFWJ2",
+                        "discoteca": "BlackHauss",
+                        "token": "pi_3Kga3OJatswSCF0w0njniPqH",
+                        "precio": 20,
+                        "fecha": "2022-04-02",
+                        "descripcion": "de prueba",
+                        "cliente": {
+                            "nombre": "Pablo",
+                            "nacido": {
+                                "seconds": 959032800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Cholvis Zarcos"
+                        },
+                        "producto": "Entrada"
+                    }
+                }
+            },
+            "2022-03-31": {
+                "Reservado": {
+                    "pi_3KdYQYJatswSCF0w00c5Lt8K": {
+                        "precio": 120,
+                        "producto": "Reservado",
+                        "fecha": "2022-03-31",
+                        "discoteca": "BlackHauss",
+                        "token": "pi_3KdYQYJatswSCF0w00c5Lt8K",
+                        "descripcion": "Zona B - Sala Techno",
+                        "cliente": {
+                            "apellidos": "Muriel Garcia del Real",
+                            "nombre": "Elena",
+                            "nacido": {
+                                "seconds": 1001541600,
+                                "nanoseconds": 0
+                            }
+                        }
+                    },
+                    "pi_3Kcx8oJatswSCF0w13obxsyh": {
+                        "discoteca": "BlackHauss",
+                        "producto": "Reservado",
+                        "precio": 120,
+                        "token": "pi_3Kcx8oJatswSCF0w13obxsyh",
+                        "fecha": "2022-03-31",
+                        "descripcion": "Zona A - Pista Central",
+                        "cliente": {
+                            "apellidos": "atauri",
+                            "nombre": "lluvia",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        }
+                    },
+                    "pi_3Kd1dUJatswSCF0w1WkS2w6x": {
+                        "producto": "Reservado",
+                        "precio": 120,
+                        "token": "pi_3Kd1dUJatswSCF0w1WkS2w6x",
+                        "discoteca": "BlackHauss",
+                        "descripcion": "Zona A - Pista Central",
+                        "fecha": "2022-03-31",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Vara"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "Boom room",
+        "data": {
+            "2022-03-31": {
+                "Entrada ": {
+                    "pi_3KcwOTJatswSCF0w1sUV1y2C": {
+                        "producto": "Entrada ",
+                        "precio": 15,
+                        "descripcion": "Normal - 2 copas",
+                        "token": "pi_3KcwOTJatswSCF0w1sUV1y2C",
+                        "cliente": {
+                            "nombre": "Jaime",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Echeita Presedo"
+                        },
+                        "fecha": "2022-03-31",
+                        "discoteca": "Boom room"
+                    },
+                    "pi_3KePWDJatswSCF0w0jMNVKVq": {
+                        "precio": 15,
+                        "producto": "Entrada ",
+                        "fecha": "2022-03-31",
+                        "discoteca": "Boom room",
+                        "descripcion": "Normal - 2 copas",
+                        "token": "pi_3KePWDJatswSCF0w0jMNVKVq",
+                        "cliente": {
+                            "apellidos": "García Braña",
+                            "nombre": "Yeray ",
+                            "nacido": {
+                                "seconds": 1048546800,
+                                "nanoseconds": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "2022-01-29": {
+                "Reservado": {
+                    "pi_3Kcp4WJatswSCF0w00lOLB4R": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 873410400,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Alfredo",
+                            "apellidos": "Perotas Lumbreras"
+                        },
+                        "token": "pi_3Kcp4WJatswSCF0w00lOLB4R",
+                        "fecha": "2022-01-29",
+                        "descripcion": "Terraza",
+                        "precio": 100,
+                        "discoteca": "Boom room",
+                        "producto": "Reservado"
+                    }
+                },
+                "Entrada ": {
+                    "pi_3KZw6LJatswSCF0w0e8EDxbQ": {
+                        "precio": 15,
+                        "cliente": {
+                            "apellidos": "Garcia Vara",
+                            "nacido": {
+                                "seconds": -3600,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Joel"
+                        },
+                        "token": "pi_3KZw6LJatswSCF0w0e8EDxbQ",
+                        "descripcion": "Normal - 2 copas",
+                        "fecha": "2022-01-29",
+                        "discoteca": "Boom room",
+                        "producto": "Entrada "
+                    },
+                    "pi_3KX3reJatswSCF0w146KcZmd": {
+                        "descripcion": "Normal - 2 copas",
+                        "precio": 15,
+                        "discoteca": "Boom room",
+                        "fecha": "2022-01-29",
+                        "producto": "Entrada ",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "David",
+                            "apellidos": "Atauri "
+                        },
+                        "token": "pi_3KX3reJatswSCF0w146KcZmd"
+                    },
+                    "pi_3KcwNuJatswSCF0w15wwAUMK": {
+                        "discoteca": "Boom room",
+                        "precio": 15,
+                        "fecha": "2022-01-29",
+                        "token": "pi_3KcwNuJatswSCF0w15wwAUMK",
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "producto": "Entrada ",
+                        "descripcion": "Normal - 2 copas"
+                    },
+                    "pi_3KWoXoJatswSCF0w1YHuDnco": {
+                        "descripcion": "Sin Colas - 2 copas",
+                        "discoteca": "Boom room",
+                        "producto": "Entrada ",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "sofia",
+                            "apellidos": "loren"
+                        },
+                        "fecha": "2022-01-29",
+                        "token": "pi_3KWoXoJatswSCF0w1YHuDnco",
+                        "precio": 20
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "FLOP",
+        "data": {
+            "2022-03-10": {
+                "PRUEBA 1": {
+                    "pi_3KedMoJatswSCF0w0y2IoZJf": {
+                        "discoteca": "FLOP",
+                        "rrpp": null,
+                        "cliente": {
+                            "nombre": "Paula ",
+                            "nacido": {
+                                "seconds": 916095600,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Denis Rubio"
+                        },
+                        "fecha": "2022-03-10",
+                        "producto": "PRUEBA 1",
+                        "descripcion": "",
+                        "precio": 2,
+                        "token": "pi_3KedMoJatswSCF0w0y2IoZJf"
+                    },
+                    "pi_3KeQ1DJatswSCF0w0efQGCtA": {
+                        "discoteca": "FLOP",
+                        "precio": 2,
+                        "token": "pi_3KeQ1DJatswSCF0w0efQGCtA",
+                        "producto": "PRUEBA 1",
+                        "descripcion": "",
+                        "fecha": "2022-03-10",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Delgado Sierra",
+                            "nombre": "Javier"
+                        }
+                    },
+                    "pi_3KdLwWJatswSCF0w1xyJY81R": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "+34608866203",
+                            "nombre": "Adams"
+                        },
+                        "producto": "PRUEBA 1",
+                        "descripcion": "",
+                        "fecha": "2022-03-10",
+                        "precio": 2,
+                        "discoteca": "FLOP",
+                        "token": "pi_3KdLwWJatswSCF0w1xyJY81R"
+                    },
+                    "pi_3Kcp4DJatswSCF0w0Vz71DZx": {
+                        "descripcion": "",
+                        "fecha": "2022-03-10",
+                        "cliente": {
+                            "nombre": "Alfredo",
+                            "nacido": {
+                                "seconds": 873410400,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Perotas Lumbreras"
+                        },
+                        "token": "pi_3Kcp4DJatswSCF0w0Vz71DZx",
+                        "discoteca": "FLOP",
+                        "precio": 2,
+                        "producto": "PRUEBA 1"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "Kapital",
+        "data": {
+            "2022-01-31": {
+                "Reservado": {
+                    "pi_3KcUhrJatswSCF0w02uFAGIW": {
+                        "producto": "Reservado",
+                        "discoteca": "Kapital",
+                        "fecha": "2022-01-31",
+                        "cliente": {
+                            "apellidos": null,
+                            "nombre": null,
+                            "nacido": null
+                        },
+                        "descripcion": "Zona A - Pista",
+                        "precio": 150,
+                        "token": "pi_3KcUhrJatswSCF0w02uFAGIW"
+                    }
+                },
+                "Entrada Normal": {
+                    "pi_3KgVnsJatswSCF0w1JiJLFd1": {
+                        "discoteca": "Kapital",
+                        "precio": 20,
+                        "token": "pi_3KgVnsJatswSCF0w1JiJLFd1",
+                        "rrpp": null,
+                        "descripcion": "2 consumiciones.",
+                        "cliente": {
+                            "nombre": "Jaime",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Echeita Presedo"
+                        },
+                        "fecha": "2022-01-31",
+                        "producto": "Entrada Normal"
+                    },
+                    "pi_3Kdz1yJatswSCF0w1ZF71zzf": {
+                        "precio": 20,
+                        "descripcion": "2 consumiciones.",
+                        "discoteca": "Kapital",
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "nombre": "Javier",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Delgado Sierra"
+                        },
+                        "fecha": "2022-01-31",
+                        "token": "pi_3Kdz1yJatswSCF0w1ZF71zzf"
+                    },
+                    "pi_3KczsaJatswSCF0w0JolM7dO": {
+                        "fecha": "2022-01-31",
+                        "token": "pi_3KczsaJatswSCF0w0JolM7dO",
+                        "precio": 20,
+                        "discoteca": "Kapital",
+                        "producto": "Entrada Normal",
+                        "descripcion": "2 consumiciones.",
+                        "cliente": {
+                            "apellidos": "Hernández del Río",
+                            "nombre": "Gabriel",
+                            "nacido": {
+                                "seconds": 886114800,
+                                "nanoseconds": 0
+                            }
+                        }
+                    },
+                    "pi_3KcUkrJatswSCF0w1Om33kd3": {
+                        "fecha": "2022-01-31",
+                        "precio": 20,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 954025200,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "+34633453577",
+                            "apellidos": "+34633453577"
+                        },
+                        "token": "pi_3KcUkrJatswSCF0w1Om33kd3",
+                        "descripcion": "2 consumiciones.",
+                        "producto": "Entrada Normal",
+                        "discoteca": "Kapital"
+                    },
+                    "pi_3Kb8DpJatswSCF0w0DyCkBgc": {
+                        "producto": "Entrada Normal",
+                        "token": "pi_3Kb8DpJatswSCF0w0DyCkBgc",
+                        "fecha": "2022-01-31",
+                        "descripcion": "2 consumiciones.",
+                        "precio": 20,
+                        "cliente": {
+                            "nombre": "Borja",
+                            "nacido": {
+                                "seconds": 962920800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Godoy"
+                        },
+                        "discoteca": "Kapital"
+                    },
+                    "pi_3KcsvUJatswSCF0w0kBFRvgV": {
+                        "precio": 20,
+                        "descripcion": "2 consumiciones.",
+                        "producto": "Entrada Normal",
+                        "token": "pi_3KcsvUJatswSCF0w0kBFRvgV",
+                        "discoteca": "Kapital",
+                        "fecha": "2022-01-31",
+                        "cliente": {
+                            "nombre": "beatriz",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "garcia"
+                        }
+                    },
+                    "pi_3KcwQPJatswSCF0w0oiZGu0q": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime"
+                        },
+                        "token": "pi_3KcwQPJatswSCF0w0oiZGu0q",
+                        "producto": "Entrada Normal",
+                        "precio": 20,
+                        "fecha": "2022-01-31",
+                        "descripcion": "2 consumiciones.",
+                        "discoteca": "Kapital"
+                    },
+                    "pi_3Kb6zgJatswSCF0w09lJye0O": {
+                        "discoteca": "Kapital",
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja",
+                            "apellidos": "García Vara"
+                        },
+                        "precio": 20,
+                        "token": "pi_3Kb6zgJatswSCF0w09lJye0O",
+                        "fecha": "2022-01-31",
+                        "descripcion": "2 consumiciones."
+                    },
+                    "pi_3Kb892JatswSCF0w1dvZI4RS": {
+                        "discoteca": "Kapital",
+                        "descripcion": "2 consumiciones.",
+                        "fecha": "2022-01-31",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "apellidos": "Godoy",
+                            "nacido": {
+                                "seconds": 962920800,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "precio": 20,
+                        "token": "pi_3Kb892JatswSCF0w1dvZI4RS",
+                        "producto": "Entrada Normal"
+                    },
+                    "pi_3KczdPJatswSCF0w1Sy6ja4G": {
+                        "descripcion": "2 consumiciones.",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 916095600,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Denis Rubio",
+                            "nombre": "Paula "
+                        },
+                        "token": "pi_3KczdPJatswSCF0w1Sy6ja4G",
+                        "producto": "Entrada Normal",
+                        "fecha": "2022-01-31",
+                        "discoteca": "Kapital",
+                        "precio": 20
+                    },
+                    "pi_3KYzwKJatswSCF0w1m8oHt7J": {
+                        "token": "pi_3KYzwKJatswSCF0w1m8oHt7J",
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "apellidos": "García Vara",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "discoteca": "Kapital",
+                        "fecha": "2022-01-31",
+                        "precio": 20,
+                        "descripcion": "2 consumiciones."
+                    },
+                    "pi_3KdOlLJatswSCF0w0OBcOwTE": {
+                        "precio": 20,
+                        "discoteca": "Kapital",
+                        "producto": "Entrada Normal",
+                        "token": "pi_3KdOlLJatswSCF0w0OBcOwTE",
+                        "fecha": "2022-01-31",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Javier",
+                            "apellidos": "Delgado Sierra"
+                        },
+                        "descripcion": "2 consumiciones."
+                    },
+                    "pi_3KaprmJatswSCF0w06SAuJv4": {
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Delgado Sierra",
+                            "nombre": "Javier"
+                        },
+                        "discoteca": "Kapital",
+                        "descripcion": "2 consumiciones.",
+                        "precio": 20,
+                        "fecha": "2022-01-31",
+                        "token": "pi_3KaprmJatswSCF0w06SAuJv4"
+                    },
+                    "pi_3KZvcpJatswSCF0w0OBXbjah": {
+                        "token": "pi_3KZvcpJatswSCF0w0OBXbjah",
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "apellidos": "García Vara",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "fecha": "2022-01-31",
+                        "descripcion": "2 consumiciones.",
+                        "precio": 20,
+                        "discoteca": "Kapital"
+                    }
+                },
+                "Reservado VIP": {
+                    "pi_3KYE9KJatswSCF0w0JcBm6ZF": {
+                        "discoteca": "Kapital",
+                        "token": "pi_3KYE9KJatswSCF0w0JcBm6ZF",
+                        "fecha": "2022-01-31",
+                        "precio": 300,
+                        "descripcion": "Cabina DJ + Botella Premium",
+                        "producto": "Reservado VIP",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959032800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Cholvis Zarcos",
+                            "nombre": "Pablo"
+                        }
+                    },
+                    "pi_3KY4N9JatswSCF0w0WhBFiH7": {
+                        "descripcion": "Cabina DJ + Botella Premium",
+                        "token": "pi_3KY4N9JatswSCF0w0WhBFiH7",
+                        "producto": "Reservado VIP",
+                        "discoteca": "Kapital",
+                        "precio": 300,
+                        "cliente": {
+                            "apellidos": "+34633453577",
+                            "nombre": "+34633453577",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "fecha": "2022-01-31"
+                    },
+                    "pi_3KaeXCJatswSCF0w1HjpgZCR": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 1048546800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Braña",
+                            "nombre": "Yeray "
+                        },
+                        "fecha": "2022-01-31",
+                        "precio": 300,
+                        "token": "pi_3KaeXCJatswSCF0w1HjpgZCR",
+                        "discoteca": "Kapital",
+                        "descripcion": "Cabina DJ + Botella Premium",
+                        "producto": "Reservado VIP"
+                    },
+                    "pi_3Kcp33JatswSCF0w1zSVKGtl": {
+                        "fecha": "2022-01-31",
+                        "producto": "Reservado VIP",
+                        "precio": 300,
+                        "discoteca": "Kapital",
+                        "token": "pi_3Kcp33JatswSCF0w1zSVKGtl",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 873410400,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Perotas Lumbreras",
+                            "nombre": "Alfredo"
+                        },
+                        "descripcion": "Cabina DJ + Botella Premium"
+                    }
+                }
+            },
+            "2022-03-25": {
+                "Entrada": {
+                    "pi_3KemChJatswSCF0w1SxDnF8R": {
+                        "rrpp": null,
+                        "descripcion": "2 consumiciones hasta las 2:00",
+                        "token": "pi_3KemChJatswSCF0w1SxDnF8R",
+                        "producto": "Entrada",
+                        "discoteca": "Kapital",
+                        "cliente": {
+                            "apellidos": "+34616988423",
+                            "nacido": {
+                                "seconds": 949964400,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "+34616988423"
+                        },
+                        "fecha": "2022-03-25",
+                        "precio": 18
+                    },
+                    "pi_3KekULJatswSCF0w197YmYgQ": {
+                        "rrpp": null,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime",
+                            "apellidos": "Echeita Presedo"
+                        },
+                        "fecha": "2022-03-25",
+                        "token": "pi_3KekULJatswSCF0w197YmYgQ",
+                        "producto": "Entrada",
+                        "precio": 18,
+                        "descripcion": "2 consumiciones hasta las 2:00",
+                        "discoteca": "Kapital"
+                    },
+                    "pi_3KedNWJatswSCF0w02MI3ziP": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 916095600,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Denis Rubio",
+                            "nombre": "Paula "
+                        },
+                        "discoteca": "Kapital",
+                        "descripcion": "2 consumiciones hasta las 2:00",
+                        "producto": "Entrada",
+                        "token": "pi_3KedNWJatswSCF0w02MI3ziP",
+                        "rrpp": null,
+                        "precio": 18,
+                        "fecha": "2022-03-25"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "Mau",
+        "data": {
+            "2022-01-27": {
+                "Reservado VIP": {
+                    "pi_3Kcp3eJatswSCF0w0NS2XErh": {
+                        "producto": "Reservado VIP",
+                        "descripcion": "Botella Premium para 4 personas.",
+                        "token": "pi_3Kcp3eJatswSCF0w0NS2XErh",
+                        "fecha": "2022-01-27",
+                        "discoteca": "Mau",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 873410400,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Alfredo",
+                            "apellidos": "Perotas Lumbreras"
+                        },
+                        "precio": 300
+                    }
+                }
+            },
+            "2022-01-28": {
+                "Reservado VIP": {
+                    "pi_3KdOleJatswSCF0w1hpRjN5C": {
+                        "fecha": "2022-01-28",
+                        "producto": "Reservado VIP",
+                        "discoteca": "Mau",
+                        "precio": 300,
+                        "descripcion": "Botella Premium a elegir para 4 personas",
+                        "token": "pi_3KdOleJatswSCF0w1hpRjN5C",
+                        "cliente": {
+                            "apellidos": "Delgado Sierra",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Javier"
+                        }
+                    }
+                },
+                "Entrada Normal": {
+                    "pi_3KbJWYJatswSCF0w0U2AotAz": {
+                        "producto": "Entrada Normal",
+                        "token": "pi_3KbJWYJatswSCF0w0U2AotAz",
+                        "discoteca": "Mau",
+                        "precio": 20,
+                        "descripcion": "Incluye 2 copas",
+                        "cliente": {
+                            "apellidos": "Godoy",
+                            "nacido": {
+                                "seconds": 962920800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja"
+                        },
+                        "fecha": "2022-01-28"
+                    },
+                    "pi_3KXOjCJatswSCF0w1td0KeZF": {
+                        "token": "pi_3KXOjCJatswSCF0w1td0KeZF",
+                        "descripcion": "Incluye 2 copas",
+                        "fecha": "2022-01-28",
+                        "producto": "Entrada Normal",
+                        "discoteca": "Mau",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime"
+                        },
+                        "precio": 20
+                    },
+                    "pi_3KX6LCJatswSCF0w0LtfXAEl": {
+                        "fecha": "2022-01-28",
+                        "token": "pi_3KX6LCJatswSCF0w0LtfXAEl",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Vara"
+                        },
+                        "discoteca": "Mau",
+                        "producto": "Entrada Normal",
+                        "descripcion": "Incluye 2 copas",
+                        "precio": 20
+                    },
+                    "pi_3KZiwhJatswSCF0w1hxN4Mqs": {
+                        "discoteca": "Mau",
+                        "token": "pi_3KZiwhJatswSCF0w1hxN4Mqs",
+                        "precio": 20,
+                        "producto": "Entrada Normal",
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime"
+                        },
+                        "descripcion": "Incluye 2 copas",
+                        "fecha": "2022-01-28"
+                    },
+                    "pi_3KZ1ilJatswSCF0w0bHQpiI8": {
+                        "producto": "Entrada Normal",
+                        "descripcion": "Incluye 2 copas",
+                        "discoteca": "Mau",
+                        "token": "pi_3KZ1ilJatswSCF0w0bHQpiI8",
+                        "fecha": "2022-01-28",
+                        "precio": 20,
+                        "cliente": {
+                            "apellidos": "García Vara",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Borja"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "The Bassement",
+        "data": {
+            "2022-01-26": {
+                "Mesa": {
+                    "pi_3KeQ1vJatswSCF0w0FvSY1j5": {
+                        "fecha": "2022-01-26",
+                        "discoteca": "The Bassement",
+                        "precio": 300,
+                        "descripcion": "4 personas + Botella + Meet&Greet",
+                        "cliente": {
+                            "apellidos": "Delgado Sierra",
+                            "nombre": "Javier",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "token": "pi_3KeQ1vJatswSCF0w0FvSY1j5",
+                        "producto": "Mesa"
+                    },
+                    "pi_3KeJ9FJatswSCF0w1yLccLCz": {
+                        "precio": 300,
+                        "descripcion": "4 personas + Botella + Meet&Greet",
+                        "producto": "Mesa",
+                        "discoteca": "The Bassement",
+                        "token": "pi_3KeJ9FJatswSCF0w1yLccLCz",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959032800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Pablo",
+                            "apellidos": "Cholvis Zarcos"
+                        },
+                        "fecha": "2022-01-26"
+                    }
+                },
+                "Entrada": {
+                    "pi_3KZbdhJatswSCF0w0ICkwhaR": {
+                        "fecha": "2022-01-26",
+                        "producto": "Entrada",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 972946800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "fernandez sanz",
+                            "nombre": "alberto "
+                        },
+                        "discoteca": "The Bassement",
+                        "token": "pi_3KZbdhJatswSCF0w0ICkwhaR",
+                        "descripcion": "Normal + 2 copas",
+                        "precio": 30
+                    },
+                    "pi_3KXR1TJatswSCF0w0rxfhlRd": {
+                        "discoteca": "The Bassement",
+                        "precio": 30,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime"
+                        },
+                        "fecha": "2022-01-26",
+                        "producto": "Entrada",
+                        "descripcion": "Normal + 2 copas",
+                        "token": "pi_3KXR1TJatswSCF0w0rxfhlRd"
+                    },
+                    "pi_3Kcze6JatswSCF0w1kcGgBsv": {
+                        "token": "pi_3Kcze6JatswSCF0w1kcGgBsv",
+                        "producto": "Entrada",
+                        "descripcion": "Normal + 2 copas",
+                        "fecha": "2022-01-26",
+                        "precio": 30,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 916095600,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Denis Rubio",
+                            "nombre": "Paula "
+                        },
+                        "discoteca": "The Bassement"
+                    },
+                    "pi_3KW5aHJatswSCF0w0Pd5GYhY": {
+                        "precio": 30,
+                        "producto": "Entrada",
+                        "fecha": "2022-01-26",
+                        "discoteca": "The Bassement",
+                        "descripcion": "Normal + 2 copas",
+                        "token": "pi_3KW5aHJatswSCF0w0Pd5GYhY",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "David",
+                            "apellidos": "atauri"
+                        }
+                    },
+                    "pi_3KeM62JatswSCF0w11ZcyWxH": {
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "discoteca": "The Bassement",
+                        "rrpp": null,
+                        "descripcion": "Normal + 2 copas",
+                        "token": "pi_3KeM62JatswSCF0w11ZcyWxH",
+                        "fecha": "2022-01-26",
+                        "producto": "Entrada",
+                        "precio": 30
+                    },
+                    "pi_3KWiYPJatswSCF0w1As91ZaN": {
+                        "descripcion": "Normal + 2 copas",
+                        "token": "pi_3KWiYPJatswSCF0w1As91ZaN",
+                        "precio": 30,
+                        "discoteca": "The Bassement",
+                        "fecha": "2022-01-26",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "nacido": {
+                                "seconds": 954540000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Vara"
+                        },
+                        "producto": "Entrada"
+                    },
+                    "pi_3Kb8CNJatswSCF0w03pdirSi": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 962920800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Godoy",
+                            "nombre": "Borja"
+                        },
+                        "discoteca": "The Bassement",
+                        "producto": "Entrada",
+                        "fecha": "2022-01-26",
+                        "descripcion": "Normal + 2 copas",
+                        "precio": 30,
+                        "token": "pi_3Kb8CNJatswSCF0w03pdirSi"
+                    },
+                    "pi_3KZEKHJatswSCF0w1valAGQg": {
+                        "precio": 30,
+                        "fecha": "2022-01-26",
+                        "producto": "Entrada",
+                        "token": "pi_3KZEKHJatswSCF0w1valAGQg",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 946681200,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Vara Santiago",
+                            "nombre": "Guille"
+                        },
+                        "discoteca": "The Bassement",
+                        "descripcion": "Normal + 2 copas"
+                    },
+                    "pi_3KZIgpJatswSCF0w0UShPpfd": {
+                        "producto": "Entrada",
+                        "precio": 30,
+                        "descripcion": "Normal + 2 copas",
+                        "fecha": "2022-01-26",
+                        "discoteca": "The Bassement",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Echeita Presedo",
+                            "nombre": "Jaime"
+                        },
+                        "token": "pi_3KZIgpJatswSCF0w0UShPpfd"
+                    },
+                    "pi_3KaNqjJatswSCF0w0HdliVCJ": {
+                        "precio": 30,
+                        "producto": "Entrada",
+                        "descripcion": "Normal + 2 copas",
+                        "fecha": "2022-01-26",
+                        "token": "pi_3KaNqjJatswSCF0w0HdliVCJ",
+                        "discoteca": "The Bassement",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 972946800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "fernandez sanz",
+                            "nombre": "alberto "
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "shoko",
+        "data": {
+            "2022-02-09": {
+                "Entrada": {
+                    "pi_3Kb5iEJatswSCF0w1qL5aq9K": {
+                        "producto": "Entrada",
+                        "discoteca": "shoko",
+                        "fecha": "2022-02-09",
+                        "token": "pi_3Kb5iEJatswSCF0w1qL5aq9K",
+                        "descripcion": "2 consumiciones",
+                        "cliente": {
+                            "apellidos": "Delgado Sierra",
+                            "nacido": {
+                                "seconds": 991087200,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Javier"
+                        },
+                        "precio": 10
+                    },
+                    "pi_3KZbR0JatswSCF0w0V5krVXH": {
+                        "discoteca": "shoko",
+                        "token": "pi_3KZbR0JatswSCF0w0V5krVXH",
+                        "precio": 10,
+                        "descripcion": "2 consumiciones",
+                        "producto": "Entrada",
+                        "fecha": "2022-02-09",
+                        "cliente": {
+                            "apellidos": "Echeita Presedo",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime"
+                        }
+                    },
+                    "pi_3Kb6O9JatswSCF0w0X6uUILb": {
+                        "precio": 10,
+                        "discoteca": "shoko",
+                        "token": "pi_3Kb6O9JatswSCF0w0X6uUILb",
+                        "cliente": {
+                            "nombre": "Jaime",
+                            "apellidos": "Echeita Presedo",
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "fecha": "2022-02-09",
+                        "producto": "Entrada",
+                        "descripcion": "2 consumiciones"
+                    },
+                    "pi_3Kb89bJatswSCF0w1Xj3mADR": {
+                        "token": "pi_3Kb89bJatswSCF0w1Xj3mADR",
+                        "descripcion": "2 consumiciones",
+                        "precio": 10,
+                        "producto": "Entrada",
+                        "fecha": "2022-02-09",
+                        "cliente": {
+                            "nombre": "Borja",
+                            "apellidos": "Godoy",
+                            "nacido": {
+                                "seconds": 962920800,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "discoteca": "shoko"
+                    },
+                    "pi_3Kcp2dJatswSCF0w0GFVB1Fw": {
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 873410400,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Perotas Lumbreras",
+                            "nombre": "Alfredo"
+                        },
+                        "token": "pi_3Kcp2dJatswSCF0w0GFVB1Fw",
+                        "precio": 10,
+                        "discoteca": "shoko",
+                        "fecha": "2022-02-09",
+                        "descripcion": "2 consumiciones",
+                        "producto": "Entrada"
+                    }
+                }
+            },
+            "2022-02-10": {
+                "Entrada": {
+                    "pi_3KcDZdJatswSCF0w03N0fEEK": {
+                        "producto": "Entrada",
+                        "discoteca": "shoko",
+                        "token": "pi_3KcDZdJatswSCF0w03N0fEEK",
+                        "descripcion": "2 consumiciones",
+                        "precio": 10,
+                        "cliente": {
+                            "apellidos": "+34608866203",
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Adams"
+                        },
+                        "fecha": "2022-02-10"
+                    },
+                    "pi_3KcUgwJatswSCF0w0EIEgLeR": {
+                        "cliente": {
+                            "apellidos": null,
+                            "nacido": null,
+                            "nombre": null
+                        },
+                        "fecha": "2022-02-10",
+                        "discoteca": "shoko",
+                        "precio": 10,
+                        "token": "pi_3KcUgwJatswSCF0w0EIEgLeR",
+                        "descripcion": "2 consumiciones",
+                        "producto": "Entrada"
+                    },
+                    "pi_3Kd1auJatswSCF0w1PWXREoV": {
+                        "precio": 10,
+                        "cliente": {
+                            "nombre": "Jonathan",
+                            "apellidos": "Martinez ",
+                            "nacido": {
+                                "seconds": 886719600,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "token": "pi_3Kd1auJatswSCF0w1PWXREoV",
+                        "discoteca": "shoko",
+                        "producto": "Entrada",
+                        "descripcion": "2 consumiciones",
+                        "fecha": "2022-02-10"
+                    },
+                    "pi_3KY4ObJatswSCF0w1hUuxQnd": {
+                        "fecha": "2022-02-10",
+                        "discoteca": "shoko",
+                        "precio": 10,
+                        "producto": "Entrada",
+                        "descripcion": "2 consumiciones",
+                        "token": "pi_3KY4ObJatswSCF0w1hUuxQnd",
+                        "cliente": {
+                            "apellidos": "+34633453577",
+                            "nombre": "+34633453577",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            }
+                        }
+                    },
+                    "pi_3KZaLlJatswSCF0w1YAXcuiY": {
+                        "fecha": "2022-02-10",
+                        "token": "pi_3KZaLlJatswSCF0w1YAXcuiY",
+                        "descripcion": "2 consumiciones",
+                        "precio": 10,
+                        "discoteca": "shoko",
+                        "producto": "Entrada",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "+34608866203",
+                            "nombre": "Adams"
+                        }
+                    },
+                    "pi_3KgFWKJatswSCF0w1zQEdHW3": {
+                        "precio": 10,
+                        "descripcion": "2 consumiciones",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "+34608866203",
+                            "nombre": "Adams"
+                        },
+                        "token": "pi_3KgFWKJatswSCF0w1zQEdHW3",
+                        "fecha": "2022-02-10",
+                        "discoteca": "shoko",
+                        "producto": "Entrada",
+                        "rrpp": null
+                    },
+                    "pi_3KYaUdJatswSCF0w0vvK6yPU": {
+                        "descripcion": "2 consumiciones",
+                        "fecha": "2022-02-10",
+                        "precio": 10,
+                        "discoteca": "shoko",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959032800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "Cholvis Zarcos",
+                            "nombre": "Pablo"
+                        },
+                        "producto": "Entrada",
+                        "token": "pi_3KYaUdJatswSCF0w0vvK6yPU"
+                    },
+                    "pi_3KXrtNJatswSCF0w0cNva8SZ": {
+                        "fecha": "2022-02-10",
+                        "precio": 10,
+                        "token": "pi_3KXrtNJatswSCF0w0cNva8SZ",
+                        "cliente": {
+                            "apellidos": "+34608866203",
+                            "nacido": {
+                                "seconds": 964648800,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "+34608866203"
+                        },
+                        "discoteca": "shoko",
+                        "descripcion": "2 consumiciones",
+                        "producto": "Entrada"
+                    },
+                    "pi_3KfEoRJatswSCF0w0PF336zx": {
+                        "descripcion": "2 consumiciones",
+                        "cliente": {
+                            "apellidos": "Martinez ",
+                            "nombre": "Jonathan",
+                            "nacido": {
+                                "seconds": 886719600,
+                                "nanoseconds": 0
+                            }
+                        },
+                        "fecha": "2022-02-10",
+                        "discoteca": "shoko",
+                        "precio": 10,
+                        "token": "pi_3KfEoRJatswSCF0w0PF336zx",
+                        "rrpp": null,
+                        "producto": "Entrada"
+                    },
+                    "pi_3KXR1xJatswSCF0w0QKcl3ip": {
+                        "producto": "Entrada",
+                        "precio": 10,
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 959724000,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Jaime",
+                            "apellidos": "Echeita Presedo"
+                        },
+                        "discoteca": "shoko",
+                        "descripcion": "2 consumiciones",
+                        "token": "pi_3KXR1xJatswSCF0w0QKcl3ip",
+                        "fecha": "2022-02-10"
+                    },
+                    "pi_3KZvoPJatswSCF0w0zYFb7vE": {
+                        "fecha": "2022-02-10",
+                        "token": "pi_3KZvoPJatswSCF0w0zYFb7vE",
+                        "discoteca": "shoko",
+                        "producto": "Entrada",
+                        "cliente": {
+                            "apellidos": "Garcia Vara",
+                            "nacido": {
+                                "seconds": -3600,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "Joel"
+                        },
+                        "precio": 10,
+                        "descripcion": "2 consumiciones"
+                    },
+                    "pi_3Kcx73JatswSCF0w1BF9DTiC": {
+                        "discoteca": "shoko",
+                        "token": "pi_3Kcx73JatswSCF0w1BF9DTiC",
+                        "descripcion": "2 consumiciones",
+                        "producto": "Entrada",
+                        "fecha": "2022-02-10",
+                        "cliente": {
+                            "apellidos": "atauri",
+                            "nacido": {
+                                "seconds": 0,
+                                "nanoseconds": 0
+                            },
+                            "nombre": "lluvia"
+                        },
+                        "precio": 10
+                    }
+                }
+            },
+            "2022-03-20": {
+                "Entrada ": {
+                    "pi_3KePmTJatswSCF0w1AHDuoE4": {
+                        "discoteca": "shoko",
+                        "producto": "Entrada ",
+                        "fecha": "2022-03-20",
+                        "descripcion": "2 consumiciones",
+                        "cliente": {
+                            "nacido": {
+                                "seconds": 1048546800,
+                                "nanoseconds": 0
+                            },
+                            "apellidos": "García Braña",
+                            "nombre": "Yeray "
+                        },
+                        "token": "pi_3KePmTJatswSCF0w1AHDuoE4",
+                        "precio": 20
+                    }
+                }
+            }
+        }
+    }
+]
