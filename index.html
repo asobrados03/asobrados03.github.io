@@ -3,9 +3,122 @@
 
 <head>
   <meta charset="UTF-8">
+  <!--<script src="./add/vue.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.common.js" integrity="sha512-Ulu6dXRT7lUgoY8Ci05sXO4f2K409+sq8Vm0FgJqaaNYIO5drnMWxlChdm9ZM+vWJlsGW1/peXKUm4+qNoGX8Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
+  <!-- <link type="text/css" rel="stylesheet" href="./add/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+  <!-- <link type="text/css" rel="stylesheet" href="./add/bootstrap-vue.min.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.21.2/bootstrap-vue.min.css" integrity="sha512-YnP4Ql71idaMB+/ZG38+1adSSQotdqvixQ+dQg8x/IFA4heIj6i0BC31W5T5QUdK1Uuwa01YdqdcT42q+RldAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- <script src="./add/polyfill.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.min.js" integrity="sha512-lvWiOP+aMKHllm4THsjzNleVuGOh0WGniJ3lgu/nvCbex1LlaQSxySUjAu/LTJw9FhnSL/PVYoQcckg1Q03+fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+  <!-- <script src="./add/bootstrap-vue.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.21.2/bootstrap-vue.min.js" integrity="sha512-Z0dNfC81uEXC2iTTXtE0rM18I3ATkwn1m8Lxe0onw/uPEEkCmVZd+H8GTeYGkAZv50yvoSR5N3hoy/Do2hNSkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js"></script>
+  <style>
+    .columnaAncha, .columnaMedia, .cEstrecha{
+        display: inline-block;
+        width: 200px;
+        overflow: hidden;
+        background-color: #eee;
+        padding: 5px;
+    }
+    .fila:nth-child(odd){
+        background-color: #4aedb7;
+        border-color: #4aedb7;
+    }
+    .columnaMedia{
+        width: 80px;
+    }
+    .cEstrecha{
+        width: 30px;
+    }
+      .col{
+          background-color: #eee;
+          padding: 2px;
+      }
+      .col:hover{
+          background-color: orange;
+      }
+      .disco{
+        padding: 30px;
+      }
+  </style>
 </head>
 
 <body>
-  <h1>holaa</h1>
+  <div id="app">
+    <div class="disco" v-for ="disco in ms">
+        <p><b>{{disco.id}}</b></p>
+        <div v-for="(fecha, key, i) in disco.data">
+            <p>{{key}}</p>
+
+            <!-- tipos de entrada -->
+            <div v-for="(tipo, key) in fecha">
+                <small>
+                    <p class="fila" v-for="entrada in tipo">
+                        <span class="columnaAncha">
+                            {{key}}
+                            <span v-if="entrada.rrpp">
+                                <b>- RRPP</b>
+                            </span>
+                        </span>
+                        <span class="cEstrecha">
+                            {{entrada.precio}}€
+                        </span>
+                        <span class="columnaMedia">
+                            {{entrada.cliente.nombre}}
+                        </span>
+                        <span class="columnaAncha">
+                            {{entrada.cliente.apellidos}}
+                        </span>
+                        <span class="columnaAncha">
+                            {{entrada.token}}
+                        </span>
+                        <span v-if="entrada.descripcion" class="columnaAncha">
+                            {{entrada.descripcion}}
+                        </span>
+                    </p>
+                </small>
+                
+
+            </div>
+
+        </div>
+        
+        <hr>
+    </div>
+    
+    <pre>{{ms}}</pre> 
+ </div>
+    <script>
+      var app = new Vue({
+        el: '#app',
+        components: {
+         
+        },
+        data: {
+            ms:"vue"
+        },
+        methods: {
+        },
+        mounted(){
+            const vm = this
+            axios.get("http://asobrados03.github.io/entradas.json")
+                .then(
+                    function(r){
+                        vm.ms=r.data
+                    }
+                )
+        }
+      });
+    </script>
+</body>
 </body>
 </html>
