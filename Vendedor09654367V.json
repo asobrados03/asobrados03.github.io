@@ -9,7 +9,8 @@
                 "nombre": "Raimundo",
                 "tipo": "Pescadero",
                 "domicilioFiscal": "Segovia, Castilla y León, España",
-                "foto": "https://........../fotoVendedor.jpg"
+                "foto": "https://........../fotoVendedor.jpg",
+                "telefono": "921673981"
             },
             "productos": {
                 "fotoProducto": "https://........../fotoProducto.jpg",
