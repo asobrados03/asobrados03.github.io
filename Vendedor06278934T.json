@@ -33,9 +33,8 @@
                         "Placemark": {
                             "name": "Entrago",
                             "description": "Es un pueblo localizado en Teverga, Asturias, España.",
-                            "Point": {
-                                "coordinates": "43.167, -6.083, 1000"
-                            }
+                            "latitud": "43.167",
+                            "longitud": "-6.083"
                         }
                     },
                     {
@@ -43,9 +42,8 @@
                         "Placemark": {
                             "name": "Monteciello",
                             "description": "Es un pueblo localizado en Teverga, Asturias, España.",
-                            "Point": {
-                                "coordinates": "43.15556, -6.089722, 530"
-                            }
+                            "latitud": "43.15556",
+                            "longitud": "-6.089722"
                         }
                     }
                 ]
