@@ -8,7 +8,7 @@
                 "DNI": "10925734U",
                 "nombre": "Dionisio",
                 "tipo": "Tendero",
-                "domicilioFiscal": "San Mart\u00c3\u00adn, Teverga, Asturias",
+                "domicilioFiscal": "San Martín, Teverga, Asturias",
                 "vehiculo": {
                     "marca": "Ford",
                     "modelo": "Transit",
@@ -22,7 +22,7 @@
                         "horallegada": "11:00 AM",
                         "Placemark": {
                             "name": "Sobrevilla",
-                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, España.",
                             "Point": {
                                 "coordinates": "43.15, -6.067, 1000"
                             }
@@ -32,7 +32,7 @@
                         "horallegada": "10:00 AM",
                         "Placemark": {
                             "name": "Entrago",
-                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, España.",
                             "Point": {
                                 "coordinates": "43.167, -6.083, 1000"
                             }
@@ -42,7 +42,7 @@
                         "horallegada": "12:00 AM",
                         "Placemark": {
                             "name": "Monteciello",
-                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, España.",
                             "Point": {
                                 "coordinates": "43.15556, -6.089722, 530"
                             }
@@ -55,7 +55,7 @@
                     "coordinates": null
                 }
             },
-            "indicidencias": "El mes que viene solo podra ir por los pueblos la \u00c3\u00baltima semana."
+            "indicidencias": "El mes que viene solo podra ir por los pueblos la última semana."
         }
     }
 }
