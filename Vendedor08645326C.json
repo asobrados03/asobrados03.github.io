@@ -8,7 +8,7 @@
                 "DNI": "08645326C",
                 "nombre": "Antonio",
                 "tipo": "Afilador",
-                "domicilioFiscal": "Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a"
+                "domicilioFiscal": "Segovia, Castilla y León, España"
             },
             "ruta": {
                 "parada": [
@@ -16,7 +16,7 @@
                         "horallegada": "20:00",
                         "Placemark": {
                             "name": "Brieva",
-                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y León, España",
                             "Point": {
                                 "coordinates": "41.034444444444, -4.0533333333333, 1090"
                             }
@@ -26,7 +26,7 @@
                         "horallegada": "18:00",
                         "Placemark": {
                             "name": "Collado Hermoso",
-                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y León, España",
                             "Point": {
                                 "coordinates": "41.039166666667, -3.9183333333333, 1222"
                             }
@@ -36,7 +36,7 @@
                         "horallegada": "16:00",
                         "Placemark": {
                             "name": "Tizneros",
-                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y León, España",
                             "Point": {
                                 "coordinates": "40.990555555556, -4.05583333333333, 1095"
                             }
