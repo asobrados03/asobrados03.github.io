@@ -1,0 +1,70 @@
+{
+    "kml": {
+        "@xmlns": "http://www.opengis.net/kml/2.2",
+        "VendedorAmbulante": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:noNamespaceSchemaLocation": "P1.xsd",
+            "Vendedor": {
+                "DNI": "09345276R",
+                "nombre": "Paco",
+                "tipo": "Panadero",
+                "empresa": "Panaderia Paco S.L",
+                "domicilioFiscal": "San Mart\u00c3\u00adn, Teverga, Asturias",
+                "foto": "https://........../fotoVendedor.jpg",
+                "vehiculo": {
+                    "marca": "Renault",
+                    "modelo": "Kangooo",
+                    "matricula": "3498 DFT"
+                }
+            },
+            "productos": {
+                "fotoProducto": "https://........../fotoProducto.jpg",
+                "producto": [
+                    "Pan",
+                    "Boller\u00c3\u00ada",
+                    "Pastas"
+                ]
+            },
+            "ruta": {
+                "parada": [
+                    {
+                        "horallegada": "10:00 AM",
+                        "Placemark": {
+                            "name": "Sobrevilla",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.15, -6.067, 1000"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "12:00 AM",
+                        "Placemark": {
+                            "name": "Entrago",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.167, -6.083, 1000"
+                            }
+                        }
+                    },
+                    {
+                        "Placemark": {
+                            "horallegada": "9:00 AM",
+                            "name": "Monteciello",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.15556, -6.089722, 530"
+                            }
+                        }
+                    }
+                ]
+            },
+            "geolocalizacion": {
+                "Point": {
+                    "coordinates": null
+                }
+            },
+            "servicios": "Vende pan, boller\u00c3\u00ada, pastas y tambi\u00c3\u00a9n hace encargos de productos de pasteler\u00c3\u00ada"
+        }
+    }
+}

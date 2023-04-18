@@ -1,0 +1,66 @@
+{
+    "kml": {
+        "@xmlns": "http://www.opengis.net/kml/2.2",
+        "VendedorAmbulante": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:noNamespaceSchemaLocation": "P1.xsd",
+            "Vendedor": {
+                "DNI": "49823457X",
+                "nombre": "Jos\u00c3\u00a9 Armando",
+                "tipo": "Colchonero",
+                "domicilioFiscal": "San Mart\u00c3\u00adn, Teverga, Asturias",
+                "foto": "https://........../fotoVendedor.jpg",
+                "vehiculo": {
+                    "marca": "Citroen",
+                    "modelo": "C15",
+                    "matricula": "8762 BBY"
+                }
+            },
+            "ruta": {
+                "parada": [
+                    {
+                        "horallegada": "10:00",
+                        "Placemark": {
+                            "name": "Sobrevilla",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, España.",
+                            "Point": {
+                                "coordinates": "43.15, -6.067, 1000"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "12:00",
+                        "Placemark": {
+                            "name": "Entrago",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, España.",
+                            "Point": {
+                                "coordinates": "43.167, -6.083, 1000"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "9:00",
+                        "Placemark": {
+                            "name": "Monteciello",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.15556, -6.089722, 530"
+                            }
+                        }
+                    }
+                ]
+            },
+            "geolocalizacion": {
+                "Point": {
+                    "coordinates": null
+                }
+            },
+            "servicios": "Recogida de colchones viejos, para tirar o que no se los este dando uso.",
+            "fotoServicios": "https://........../fotoServicios.jpg",
+            "indicidencias": {
+                "fechaIncidencia": "14/03/2022",
+                "#text": "Los siguientes viernes hasta el mes de mayo no pasara por ningun pueblo."
+            }
+        }
+    }
+}

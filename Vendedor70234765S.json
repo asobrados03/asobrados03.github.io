@@ -1,0 +1,70 @@
+{
+    "kml": {
+        "@xmlns": "http://www.opengis.net/kml/2.2",
+        "VendedorAmbulante": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:noNamespaceSchemaLocation": "P1.xsd",
+            "Vendedor": {
+                "DNI": "70234765S",
+                "nombre": "Manolo",
+                "tipo": "Frutero",
+                "empresa": "Fruterias Manolo S.L",
+                "domicilioFiscal": "Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                "vehiculo": {
+                    "marca": "Renault",
+                    "modelo": "Kangooo",
+                    "matricula": "1212 CTT"
+                }
+            },
+            "productos": {
+                "fotoProducto": "https://........../fotoProducto.jpg",
+                "producto": [
+                    "Judias verdes",
+                    "Berenjenas",
+                    "Manzanas",
+                    "Peras"
+                ],
+                "#text": "Frutas de temporada y verduras de todo tipo\n        \n        \n        \n        \n        \n        y mucho mas..."
+            },
+            "ruta": {
+                "parada": [
+                    {
+                        "horallegada": "13:00",
+                        "Placemark": {
+                            "name": "Brieva",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "Point": {
+                                "coordinates": "41.034444444444, -4.0533333333333, 1090"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "12:00",
+                        "Placemark": {
+                            "name": "Collado Hermoso",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "Point": {
+                                "coordinates": "41.039166666667, -3.9183333333333, 1222"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "10:00",
+                        "Placemark": {
+                            "name": "Tizneros",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "Point": {
+                                "coordinates": "40.990555555556, -4.05583333333333, 1095"
+                            }
+                        }
+                    }
+                ]
+            },
+            "geolocalizacion": {
+                "Point": {
+                    "coordinates": null
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "kml": {
+        "@xmlns": "http://www.opengis.net/kml/2.2",
+        "VendedorAmbulante": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:noNamespaceSchemaLocation": "P1.xsd",
+            "Vendedor": {
+                "DNI": "34567812A",
+                "nombre": "Josefina",
+                "tipo": "Zapatero",
+                "domicilioFiscal": "San Mart\u00c3\u00adn, Teverga, Asturias"
+            },
+            "ruta": {
+                "parada": [
+                    {
+                        "horallegada": "18:00",
+                        "Placemark": {
+                            "name": "Sobrevilla",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.15, -6.067, 1000"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "16:00",
+                        "Placemark": {
+                            "name": "Entrago",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.167, -6.083, 1000"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "19:00",
+                        "Placemark": {
+                            "name": "Monteciello",
+                            "description": "Es un pueblo localizado en Teverga, Asturias, Espa\u00c3\u00b1a.",
+                            "Point": {
+                                "coordinates": "43.15556, -6.089722, 530"
+                            }
+                        }
+                    }
+                ]
+            },
+            "fotoServicios": "https://........../fotoServicios.jpg",
+            "servicios": "Arregla zapatos viejos, rotos por el uso y te los deja como nuevos"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "kml": {
+        "@xmlns": "http://www.opengis.net/kml/2.2",
+        "VendedorAmbulante": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:noNamespaceSchemaLocation": "P1.xsd",
+            "Vendedor": {
+                "DNI": "09834521P",
+                "nombre": "Alberto",
+                "tipo": "Malabarista",
+                "domicilioFiscal": "Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                "foto": "https://........../fotoVendedor.jpg"
+            },
+            "ruta": {
+                "parada": [
+                    {
+                        "horallegada": "9:00 AM",
+                        "Placemark": {
+                            "name": "Brieva",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "Point": {
+                                "coordinates": "41.034444444444, -4.0533333333333, 1090"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "13:00 AM",
+                        "Placemark": {
+                            "name": "Collado Hermoso",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "Point": {
+                                "coordinates": "41.039166666667, -3.9183333333333, 1222"
+                            }
+                        }
+                    },
+                    {
+                        "horallegada": "11:00 AM",
+                        "Placemark": {
+                            "name": "Tizneros",
+                            "description": "Es un pueblo localizado en Segovia, Castilla y Le\u00c3\u00b3n, Espa\u00c3\u00b1a",
+                            "Point": {
+                                "coordinates": "40.990555555556, -4.05583333333333, 1095"
+                            }
+                        }
+                    }
+                ]
+            },
+            "servicios": "Divierte y entretiene al personal con sus malabares con objetos insesperados.",
+            "fotoServicios": "https://........../fotoServicios.jpg"
+        }
+    }
+}
