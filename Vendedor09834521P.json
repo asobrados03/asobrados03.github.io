@@ -9,7 +9,8 @@
                 "nombre": "Alberto",
                 "tipo": "Malabarista",
                 "domicilioFiscal": "Segovia, Castilla y León, España",
-                "foto": "https://........../fotoVendedor.jpg"
+                "foto": "https://........../fotoVendedor.jpg",
+                "telefono": "921345698"
             },
             "ruta": {
                 "parada": [
