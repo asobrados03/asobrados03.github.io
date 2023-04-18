@@ -14,7 +14,8 @@
                     "marca": "Ford",
                     "modelo": "Transit",
                     "matricula": "1090 FRI"
-                }
+                },
+                "telefono": "984102474"
             },
             "ruta": {
                 "parada": [
