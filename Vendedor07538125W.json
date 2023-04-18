@@ -20,9 +20,8 @@
                         "Placemark": {
                             "name": "Brieva",
                             "description": "Es un pueblo localizado en Segovia, Castilla y León, España",
-                            "Point": {
-                                "coordinates": "41.034444444444, -4.0533333333333, 1090"
-                            }
+                            "latitud": "41.034444444444",
+                            "longitud": "-4.0533333333333"
                         }
                     },
                     {
@@ -30,9 +29,8 @@
                         "Placemark": {
                             "name": "Collado Hermoso",
                             "description": "Es un pueblo localizado en Segovia, Castilla y León, España",
-                            "Point": {
-                                "coordinates": "41.039166666667, -3.9183333333333, 1222"
-                            }
+                            "latitud": "41.039166666667",
+                            "longitud": "-3.9183333333333"
                         }
                     },
                     {
@@ -40,9 +38,8 @@
                         "Placemark": {
                             "name": "Tizneros",
                             "description": "Es un pueblo localizado en Segovia, Castilla y León, España",
-                            "Point": {
-                                "coordinates": "40.990555555556, -4.05583333333333, 1095"
-                            }
+                            "latitud": "40.990555555556",
+                            "longitud": "-4.05583333333333"
                         }
                     }
                 ]
