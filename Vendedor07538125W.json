@@ -9,7 +9,8 @@
                 "nombre": "Almudena",
                 "tipo": "Lechera",
                 "empresa": "Leches Almudena S.L",
-                "domicilioFiscal": "Segovia, Castilla y León, España"
+                "domicilioFiscal": "Segovia, Castilla y León, España",
+                "telefono": "921396049"
             },
             "productos": "Vende leche y derivados de la leche (lacteos)",
             "ruta": {
