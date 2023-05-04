@@ -153,8 +153,8 @@
                     ]
                 },
                 "servicios": "Afila cualquier utensilio que tenga una hoja ya mellada o sin filo",
-                "fotoServicios": "https://........../fotoServicios.jpg",
-                "indicidencias": "Dejara de dar servicio las dos semanas siguientes."
+                "fotoServicios": "https://mxcity.mx/wp-content/uploads/2014/09/afilador.jpg",
+                "incidencias": "Dejara de dar servicio las dos semanas siguientes."
             }
         }
     },
@@ -285,7 +285,7 @@
                         }
                     ]
                 },
-                "indicidencias": "La semana que viene se ausentara por problemas personales"
+                "incidencias": "La semana que viene se ausentara por problemas personales"
             }
         }
     },
@@ -398,7 +398,7 @@
                         "coordinates": null
                     }
                 },
-                "indicidencias": "El mes que viene solo podra ir por los pueblos la \u00c3\u00baltima semana."
+                "incidencias": "El mes que viene solo podra ir por los pueblos la \u00c3\u00baltima semana."
             }
         }
     },
@@ -512,7 +512,7 @@
                 },
                 "servicios": "Recogida de colchones viejos, para tirar o que no se los este dando uso.",
                 "fotoServicios": "https://........../fotoServicios.jpg",
-                "indicidencias": {
+                "incidencias": {
                     "fechaIncidencia": "14/03/2022",
                     "#text": "Los siguientes viernes hasta el mes de mayo no pasara por ningun pueblo."
                 }
