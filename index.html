@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.common.js" integrity="sha512-Ulu6dXRT7lUgoY8Ci05sXO4f2K409+sq8Vm0FgJqaaNYIO5drnMWxlChdm9ZM+vWJlsGW1/peXKUm4+qNoGX8Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.21.2/bootstrap-vue.min.css" integrity="sha512-YnP4Ql71idaMB+/ZG38+1adSSQotdqvixQ+dQg8x/IFA4heIj6i0BC31W5T5QUdK1Uuwa01YdqdcT42q+RldAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.min.js" integrity="sha512-lvWiOP+aMKHllm4THsjzNleVuGOh0WGniJ3lgu/nvCbex1LlaQSxySUjAu/LTJw9FhnSL/PVYoQcckg1Q03+fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.21.2/bootstrap-vue.min.js" integrity="sha512-Z0dNfC81uEXC2iTTXtE0rM18I3ATkwn1m8Lxe0onw/uPEEkCmVZd+H8GTeYGkAZv50yvoSR5N3hoy/Do2hNSkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7CVCdFLRHhlvCIw_nlb8PzoBlmPvkCNM"></script>
+
+    <style>
+        .titulo {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 1em;
+            background-color: rgb(77, 157, 248);
+            color: #000;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 1em;
+        }
+
+        .image-wrapper img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: 0 auto; 
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); 
+        }
+
+        .image-wrapper {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .botones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .boton-wrapper {
+            width: 50%;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .boton {
+            font-size: 30px;
+            background-color: #1a1835;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.2s ease;
+        }
+
+        .botonAtras {
+            display: block;
+            margin: auto;
+            font-size: 1.8rem;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            background-color: #ccc;
+            border: none;
+            cursor: pointer;
+        }
+
+        .info{
+            font-size: 15px;
+            position: absolute;
+            top: 215%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .boton:hover {
+            background-color: #2980b9;
+        }
+        
+        /* Estilos para la primera fila de botones */
+        #boton0,
+        #boton1,
+        #boton2,
+        #boton3,
+        #boton4 {
+            margin-bottom: 20px;
+        }
+        
+        /* Estilos para la segunda fila de botones */
+        #boton5,
+        #boton6,
+        #boton7,
+        #boton8,
+        #boton9 {
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 0.5em;
+        }
+
+        .google-map {
+            height: 400px;
+            width: 100%;
+        }
+
+    </style>
+    <title>App Vendedores Ambulantes</title>
+</head>
+<body>
+    <div class="titulo">
+        <br><h1><b>Vendedores Ambulantes</b></h1><br>
+    </div>
+    <div id="app">
+        <div v-if="!mostrandoInfo">
+            <div class="botones">
+                <div v-for="(vA, index) in ms"  class="boton-wrapper">
+                    <button v-bind:id="'boton' + index" class="boton" @click="mostrarInfo(index)">
+                        <p>{{vA.kml.VendedorAmbulante.Vendedor.tipo}}</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div v-else>
+            <button class="botonAtras" @click="mostrarBotones">Atrás</button>
+
+            <div v-if="vendedorSeleccionado !== null">
+                <div class="info">
+                    <p>Nombre del vendedor/a: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.nombre}}<br></p>
+                    <p>Oficio del/ de la vendedor/a: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.tipo}}<br></p>
+                    <p>DNI del vendedor/a: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.DNI}}<br></p>
+
+                    <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.empresa">
+                        <p>Empresa del vendedor/a: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.empresa}}<br></p>
+                    </div>
+                    
+                    <p>Domicilio fiscal del vendedor/a: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.domicilioFiscal}}<br></p>
+
+                    <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.foto">
+                        <p>Foto del vendedor/a:<br></p>
+                        <div class="image-wrapper">
+                            <img :src="vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.foto" alt="Imagen">
+                        </div>
+                        
+                    </div>
+
+                    <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.vehiculo">
+                        <p>Vehículo del vendedor/a:</p>
+                        <p>Marca: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.vehiculo.marca}}<br></p>
+                        <p>Modelo: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.vehiculo.modelo}}<br></p>
+                        <p>Matrícula: {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.vehiculo.matricula}}<br></p>
+                    </div>
+                    
+                    <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.productos">
+                        <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.productos && !vendedorSeleccionado.kml.VendedorAmbulante.productos.producto && !vendedorSeleccionado.kml.VendedorAmbulante.productos['#text'] && !vendedorSeleccionado.kml.VendedorAmbulante.productos.fotoProducto">
+                            <p>Productos que tiene a la venta el vendedor: <br></p>
+                            <p>{{vendedorSeleccionado.kml.VendedorAmbulante.productos}}</p>
+                        </div>
+                        <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.productos.producto">
+                            <p>Productos que tiene a la venta el vendedor: <br></p>
+                            <div v-for="producto in vendedorSeleccionado.kml.VendedorAmbulante.productos.producto">
+                                <p>{{producto}}</p>
+                            </div>
+                        </div>
+                        <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.productos['#text']">
+                            <p>{{vendedorSeleccionado.kml.VendedorAmbulante.productos['#text']}}</p>
+                        </div>
+                        
+                        <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.productos.fotoProducto">
+                            <p>Foto del producto/s:<br></p>
+                            <div class="image-wrapper">
+                                <img :src="vendedorSeleccionado.kml.VendedorAmbulante.productos.fotoProducto" alt="Imagen"><br>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.servicios">
+                        <p>{{vendedorSeleccionado.kml.VendedorAmbulante.servicios}}<br></p>
+                    </div>
+
+                    <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.fotoServicios">
+                        <p>Foto del servicio que se da: </p>
+                        <div class="image-wrapper">
+                            <img :src="vendedorSeleccionado.kml.VendedorAmbulante.fotoServicios" alt="Imagen"><br>
+                        </div>
+                        
+                    </div>
+                    
+                    <div>
+                        <div v-if="vendedorSeleccionado.kml.VendedorAmbulante.incidencias && vendedorSeleccionado.kml.VendedorAmbulante.incidencias.fechaIncidencia">
+                            <p>INCIDENCIAS: {{vendedorSeleccionado.kml.VendedorAmbulante.incidencias['#text']}}</p><br>
+                            <p>Fecha de incidencia: {{vendedorSeleccionado.kml.VendedorAmbulante.incidencias.fechaIncidencia}}</p><br>
+                        </div>
+                        <div v-else-if="vendedorSeleccionado.kml.VendedorAmbulante.incidencias">
+                            <p>INCIDENCIAS: {{vendedorSeleccionado.kml.VendedorAmbulante.incidencias}}</p><br>
+                        </div>
+                    </div>
+
+                    <h2>Ruta del {{vendedorSeleccionado.kml.VendedorAmbulante.Vendedor.tipo}}</h2>
+                    <div v-for="p in vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada">
+                        <p>Hora de llegada a {{p.Placemark.name}}: {{p.horallegada}}</p>
+                        <p>Descripción de la parada: {{p.Placemark.description}}</p>
+                    </div>
+
+                    <div id="map" class="google-map"></div>
+
+                </div>                
+            </div>
+        </div>
+    </div>      
+
+    <script>
+        var app = new Vue({
+        el: '#app',
+        data: {
+            ms:[],
+            mostrandoInfo: false,
+            vendedorSeleccionado: null
+        },
+        methods: {
+            mostrarInfo(index) {
+                // ocultar todos los botones
+                this.mostrandoInfo = true;
+                // seleccionar el vendedor correspondiente
+                this.vendedorSeleccionado = this.ms[index];
+
+                // inicializar el mapa
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: this.vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada[0].Placemark.Point.coordinates[1], lng: this.vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada[0].Placemark.Point.coordinates[0]},
+                    zoom: 13
+                });
+
+                // agregar los marcadores para cada parada de la ruta
+                for (var i = 0; i < this.vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada.length; i++) {
+                    var marker = new google.maps.Marker({
+                        position: {lat: this.vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada[i].Placemark.Point.coordinates[1], lng: this.vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada[i].Placemark.Point.coordinates[0]},
+                        map: map,
+                        title: this.vendedorSeleccionado.kml.VendedorAmbulante.ruta.parada[i].Placemark.name
+                    });
+                }
+            },
+            mostrarBotones() {
+                // mostrar todos los botones
+                this.mostrandoInfo = false;
+                // deseleccionar el vendedor
+                this.vendedorSeleccionado = null;
+            }
+        },
+        mounted(){
+            const vm = this
+            axios.get("http://asobrados03.pythonanywhere.com/JSON_Vendedores")
+                .then(
+                    function(r){
+                        vm.ms = r.data;
+                    }
+                )
+        }
+      });
+    </script>
+</body>
+</html>
